@@ -23,7 +23,7 @@ print("Check the data types of the following data\n")
 print(type(10))
 print(type(9.8))
 print(type(3.14))
-print(type(4-4j))
+print(type(4-4j)) #complex
 print(type(['Asabeneh', 'Python', 'Finland']))
 print(type(name))
 print(type(family_name))
