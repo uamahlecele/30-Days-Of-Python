@@ -15,3 +15,32 @@ print("length of student dictionary:",len(student_dict))
 
 print(type(student_dict["skills"]))
 
+#6.
+
+print(student_dict["skills"])
+add_more = ["Funny","Prolific","Visionary"]
+student_dict["skills"] =  student_dict["skills"] + add_more
+
+print(student_dict["skills"])
+
+#7.
+
+print(student_dict.keys())
+
+#8.
+
+print(student_dict.values())
+
+#9.
+
+print("List of items\n",student_dict.items())
+
+#10.
+
+del student_dict["address"]
+print(student_dict)
+
+#11.
+
+del dog_dict
+
